@@ -19,9 +19,8 @@ Tablet 481px-1279px
 Desktop ab 1280px
 
 ### Sitemap
-'''text
 
-.
+````
 ├── components/
 ├── images/
 ├── css/
@@ -40,6 +39,7 @@ Desktop ab 1280px
 ├── datenschutz.html
 ├── impressum.html
 └── 404.html
+````
 
 ### Barrierefreiheit
 Grundlegend basierend auf WCAG (Web Content Accessibility Guidelines) des W3C.
