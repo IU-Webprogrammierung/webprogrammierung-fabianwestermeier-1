@@ -1,14 +1,38 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Webseite von Fabian</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <title>Berufliches</title>
 </head>
+
 <body>
-    
 
-    
+    <header hx-get="components/header.html" hx-trigger="load" hx-target="header"> </header>
+
+    <main>
+        <h1>Herzlich Willkommen zu der Rubrik Berufliches</h1>
+
+        <p>Hier findest du Informationen zu meinem Beruf als Fachinformatiker.</p>
+        <img src="images/beruf.jpg" alt="Beschreibung des IT-Berufs">
+
+        <h2>Auszug der Hardskills</h2>
+        <ul>
+            <li>Windows Server und Client Systeme</li>
+            <li>Netzwerkadministration (Cisco)</li>
+            <li>Virtualisierung (VMware, Hyper-V, Proxmox)</li>
+            <li>Firewall (Fortinet, Cisco, Unify)</li>
+        </ul>
+
+
+    </main>
+
+
+    <footer hx-get="components/footer.html" hx-trigger="load" hx-target="footer"> </footer>
+
 </body>
-</html>
 
+</html>
