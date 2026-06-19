@@ -1,10 +1,23 @@
 /* CSS Styles */
 /* Allgemeine CSS-Settings */
 
+/* Farbdefinitionen */
+:root {
+    --text-primary: #000000;
+    --background-overall: #e9ecef; /* hellgrau */
+    --background-primary: #868788d5;
+    --background-secondary: #999595a8;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: var(--text-primary);
+    background: var(--background-overall);
+}
 
 /* Header */
 body header {
-	background: #9ca1b1;
+	background: var(--background-primary);
     text-align: center;
 }
 
@@ -17,7 +30,7 @@ header nav li {
 
 /* Footer */
 body footer {
-	background: #9ca1b1;
+	background: var(--background-secondary);
     text-align: center;
 }
 
@@ -39,6 +52,7 @@ article {
     margin-bottom: 2rem;
     padding: 1rem;
     border: 1px solid #ccc;
+    background: var(--background-secondary);
 }
 
 /* Linke Spalte: Bild */
