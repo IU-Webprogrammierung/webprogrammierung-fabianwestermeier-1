@@ -1,3 +1,72 @@
 /* CSS Styles */
 /* Allgemeine CSS-Settings */
 
+
+/* Header */
+body header {
+	background: #9ca1b1;
+    text-align: center;
+}
+
+header nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 2%;
+    text-align: center;
+}
+
+/* Footer */
+body footer {
+	background: #9ca1b1;
+    text-align: center;
+}
+
+footer nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 2% 0 2%;
+    text-align: center;
+}
+
+
+/* Hauptlayout */
+/* Grid für Artikel */
+article {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
+
+/* Linke Spalte: Bild */
+article figure {
+    margin: 0;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Mittlere Spalte: Überschrift */
+article h1 {
+    margin: 0;
+    text-align: center;
+}
+
+/* Rechte Spalte: Text */
+article p {
+    margin: 0;
+}
+
+
+
+
+/* Layout Classes*/
+.welcome-section{
+    text-align: center;
+}
