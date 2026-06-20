@@ -14,6 +14,39 @@
     <header hx-get="components/header.html" hx-trigger="load" hx-target="header"> </header>
 
     <main>
+        <form action="send.php" method="post" class="kontaktformular">
+            <h2>Kontaktforumlar</h2>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Nachname">
+
+                <label for="firstname">Vorname:</label>
+                <input type="text" id="firstname" name="firstname" required placeholder="Vorname">
+            </div>
+            
+            <div>
+                <label for="mail">E-Mail:</label>
+                <input type="email" id="mail" name="mail" required placeholder="abc@xyz.de">
+            </div>
+            
+            <div>
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Geben Sie hier Ihre Nachricht ein."></textarea>
+            </div>
+
+            <div>
+                <button type="submit">Senden</button>
+            </div>
+            <div>
+                <button type="reset">Zurücksetzen</button>
+            </div>
+            <div>
+                <h1>Wenn du das Formular nicht nutzen willst, kann auch eine Email schreiben:
+                    <a href="mailto:administrator@mail.de?subject=eine%20Mailanfrage%20über%20das%20Kontaktformular">administrator@mail.de</a>
+                </h1>
+            </div>
+        </form>
+
 
      
     </main>
