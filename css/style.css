@@ -13,69 +13,73 @@ body {
     font-family: Arial, sans-serif;
     color: var(--text-primary);
     background: var(--background-overall);
-}
-
-/* Header */
-body header {
-	background: var(--background-primary);
-    text-align: center;
-}
-
-header nav li {
-    list-style: none;
-    display: inline-block;
-    padding: 2%;
-    text-align: center;
-}
-
-/* Footer */
-body footer {
-	background: var(--background-secondary);
-    text-align: center;
-}
-
-footer nav li {
-    list-style: none;
-    display: inline-block;
-    padding: 0 2% 0 2%;
-    text-align: center;
-}
 
 
-/* Hauptlayout */
-/* Grid für Artikel */
-article {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    align-items: center;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    background: var(--background-secondary);
+    /* Header */
+    header{
+        background: var(--background-primary);
+        text-align: center;
+
+        nav li{
+            list-style: none;
+            display: inline-block;
+            padding: 2%;
+            text-align: center;
+        }
+    }
+
+    /* Footer */
+    footer{
+        background: var(--background-secondary);
+        text-align: center;
+
+        nav li {
+            list-style: none;
+            display: inline-block;
+            padding: 0 2% 0 2%;
+            text-align: center;
+        }
+    }
+
+    /* Hauptlayout */
+    /* Grid für Artikel */
+    article {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        align-items: center;
+        gap: 1.5rem;
+        margin-bottom: 2rem;
+        padding: 1rem;
+        border: 1px solid #ccc;
+        background: var(--background-secondary);
+
+
+        /* Linke Spalte: Bild */
+        figure {
+            margin: 0;
+        }
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        /* Mittlere Spalte: Überschrift */
+        h1 {
+            margin: 0;
+            text-align: center;
+        }
+
+        /* Rechte Spalte: Text */
+        p {
+            margin: 0;
+        }
+    }
+
+
+
 }
 
-/* Linke Spalte: Bild */
-article figure {
-    margin: 0;
-}
-
-article img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-/* Mittlere Spalte: Überschrift */
-article h1 {
-    margin: 0;
-    text-align: center;
-}
-
-/* Rechte Spalte: Text */
-article p {
-    margin: 0;
-}
 
 
 
