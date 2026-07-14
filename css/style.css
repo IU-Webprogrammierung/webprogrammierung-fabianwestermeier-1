@@ -82,6 +82,32 @@ body {
 
 
 
+/* Media Query für Bildschirme 481px bis 1280px */
+@media (min-width: 481px) and (max-width: 1280px) {
+  body {
+    background-color: rgb(223, 173, 230);
+    
+        article {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+        }
+  }
+}
+
+
+
+/* Media Query für Bildschirme kleiner oder gleich 480px */
+@media (max-width: 480px) {
+  body {
+    background-color: rgb(124, 140, 231);
+
+        article {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+  }
+}
+
 
 
 /* Layout Classes*/
