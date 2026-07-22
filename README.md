@@ -49,4 +49,9 @@ Grundlegend basierend auf WCAG (Web Content Accessibility Guidelines) des W3C.
 Bilder enthalten alternativ Texte zur Unterstützung von Screenreadern.
 
 
+### Sonstige Informationen
+Mailto Links mit verschiedenen Attributen auf der Kontakt-, Impressums- und Datenschutzseite.
+Versuch eines Burgermenüs für die Navigation
+
+
 
