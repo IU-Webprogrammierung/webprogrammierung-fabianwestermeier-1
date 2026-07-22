@@ -92,6 +92,17 @@ body {
         article {
             display: grid;
             grid-template-columns: 2fr 1fr;
+            img {
+                width: 250px;
+                height: auto;
+            }
+            figure {
+                margin: 0 auto;
+            }
+        }
+        img {
+            width: 300px;
+            height: auto;
         }
   }
 }
@@ -106,6 +117,17 @@ body {
         article {
             display: grid;
             grid-template-columns: 1fr;
+            img {
+                width: 150px;
+                height: auto;
+            }
+            figure {
+                margin: 0 auto;
+            }
+        }
+        img {
+            width: 200px;
+            height: auto;
         }
   }
 }
