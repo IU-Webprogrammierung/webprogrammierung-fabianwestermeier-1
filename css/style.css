@@ -20,7 +20,7 @@ body {
         background: var(--background-primary);
         text-align: center;
 
-        nav li{
+        nav menu li{
             list-style: none;
             display: inline-block;
             padding: 2%;
@@ -33,7 +33,7 @@ body {
         background: var(--background-secondary);
         text-align: center;
 
-        nav li {
+        nav menu li {
             list-style: none;
             display: inline-block;
             padding: 0 2% 0 2%;
