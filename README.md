@@ -11,6 +11,7 @@ Responsive Design Layout wird CSS-Grid-System und Flexbox verwendet werden.
 
 ### Breakpoints
 481 px
+
 1280 px
 
 ### Darstellungsgrößen
