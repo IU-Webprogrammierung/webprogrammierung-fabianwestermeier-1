@@ -23,14 +23,16 @@ Desktop ab 1280px
 
 ````
 ├── components/
+│   └── footer.html
+│   └── header.html
 ├── images/
 ├── css/
 │   └── style.css
 ├── js/
 │   └── script.js
+├── README.MD
 ├── index.html
 ├── beruf.html
-├── video.html
 ├── ehrenamt.html
 ├── gegend.html
 ├── privat.html
