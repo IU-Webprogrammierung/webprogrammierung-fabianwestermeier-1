@@ -80,12 +80,14 @@ body {
 
 }
 
-
+/* #################################### */
+/* Meadia Querys für responsive Design */
+/* ################################### */
 
 /* Media Query für Bildschirme 481px bis 1280px */
 @media (min-width: 481px) and (max-width: 1280px) {
   body {
-    background-color: rgb(223, 173, 230);
+        background-color: rgba(117, 117, 119, 0.5);
     
         article {
             display: grid;
@@ -99,7 +101,7 @@ body {
 /* Media Query für Bildschirme kleiner oder gleich 480px */
 @media (max-width: 480px) {
   body {
-    background-color: rgb(124, 140, 231);
+        background-color: rgba(117, 117, 119, 0.3);
 
         article {
             display: grid;
