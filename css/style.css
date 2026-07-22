@@ -5,8 +5,8 @@
 :root {
     --text-primary: #000000;
     --background-overall: #e9ecef; /* hellgrau */
-    --background-primary: #98999A;
-    --background-secondary: #98999A;
+    --background-primary: #AAACAC;
+    --background-secondary: #AAACAC;
 }
 
 body {
@@ -25,6 +25,10 @@ body {
             display: inline-block;
             padding: 2%;
             text-align: center;
+            a {
+                color: #000080;
+                text-decoration: underline;
+            }
             a:hover, a:focus {
                 color: #004d52;
                 text-decoration: none;
@@ -42,6 +46,10 @@ body {
             display: inline-block;
             padding: 0 2% 0 2%;
             text-align: center;
+            a {
+                color: #000080;
+                text-decoration: underline;
+            }
             a:hover, a:focus {
                 color: #004d52;
                 text-decoration: none;
